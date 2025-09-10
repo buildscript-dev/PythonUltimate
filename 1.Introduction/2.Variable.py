@@ -1,17 +1,22 @@
 
-
 # A variable is a name give to a memory location in a program.
 # Variable is container which stores data...
-#like name = "BuildScript"
-#     age = 20
-#     salary = 12.5 cr
 # (=) is Assignment operator
 
-
-name = "BuildScript"
-age = 20
-salary = 12.345
+name = "BuildScript" # String
+age = 20 # Int
+cgpa = 6.78 # Float
 
 print(name)
 print(age)
-print(name + " have salary of",salary,"cr")
+print(cgpa)
+# Python is Dynamically Typed Language, So we don't need to explicitily declare the data type to it...
+# Int age = 20
+# OR age: Int = 20
+
+# To Check the data types of variable we simpli use Type()
+print(type(name))
+print(type(age))
+print(type(cgpa))
+
+# Identifier: Combination of uppercase, lowercase, digit or an underscore(_),

@@ -1,13 +1,10 @@
 
-print("Hello World")
-print("Hello Python")
-print("Hello Madara")
-print("Hello BuildScript")
-print("Welcome to first program")
+
+# This is the simple python code
+print("Hello, I'm Python")
+
+print("Hello, Madara")
+print("Hello, World")
 
 
-print("My name is Python")
-print("My name is Build...", "BuildScript")
-print("Python is 50+ year old.")
-print("BuildScript is", 10+10, "years old")
-
+# Syntax is the set of rule to be execute...
