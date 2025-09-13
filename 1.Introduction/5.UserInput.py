@@ -26,3 +26,7 @@ print("Hello,", name)
 firstNum = int(input("Enter your firstNum: "))
 secondNum = int(input("Enter your secondNum: "))
 print( firstNum + secondNum)
+
+
+# output
+print(f"my name is {name}.")

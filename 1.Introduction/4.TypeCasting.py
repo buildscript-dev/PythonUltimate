@@ -27,3 +27,12 @@ print(type(d))
 e = str(d)
 print(e)
 print(type(e))
+
+
+# Indexing 
+# Positive
+name_first = "Build"
+print(name_first[2])
+# Negation
+name = "Build"
+print(name[-2])

@@ -1,7 +1,11 @@
+#   Comment are line of code which is ignored by interpreter.
+#   Types of Comment: 
+#   1. Single Line Commment
+''' 2.  Multiline Comment'''
 
-# A variable is a name give to a memory location in a program.
-# Variable is container which stores data...
-# (=) is Assignment operator
+''' A variable is a name give to a memory location in a program.
+ Variable is container which stores data...
+ (=) is Assignment operator '''
 
 name = "BuildScript" # String
 age = 20 # Int
@@ -20,3 +24,7 @@ print(type(age))
 print(type(cgpa))
 
 # Identifier: Combination of uppercase, lowercase, digit or an underscore(_),
+
+userName = "Build" # camelCase
+UserName = "Build" # PascalCase
+user_name = "Build" # snake_case
