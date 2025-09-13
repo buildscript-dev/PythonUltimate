@@ -32,3 +32,4 @@ print(f"The Subtraction of Both Values are {third_Num**exponent_value}")
 print(f"The Subtraction of Both Values are {first_Num % second_Num}")
 
 # BODMAS -Bracket of division multiplicaiton  additon subration
+print(first_Num + second_Num / third_Num * first_Num)
