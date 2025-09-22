@@ -11,3 +11,4 @@ elif money == 20:   # Second condition (checked only if the first was False)
 
 else:   # Fallback case if none of the above are True
     print("I will buy Red Bull")
+    

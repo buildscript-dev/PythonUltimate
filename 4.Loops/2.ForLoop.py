@@ -1,33 +1,56 @@
-# For Loop
-# It's used to iterate over a sequence (like a list, tuple, dictionary, set, or string) it's finite
-# It works on the basis of number
-# i is a variable that changes its value in each iteration
-# instead of i we can use any variable name
-# iteration is the process of repeating a set of instructions a certain number of times     
+# -------------------------------
+# For Loop in Python
+# -------------------------------
+# A for loop is used to repeat a block of code (iteration).
+# It works with sequences like lists, tuples, strings, sets, or with numbers using range().
+# The loop variable (often called 'i') changes value each time.
+# You can name the loop variable anything, not just 'i'.
 
-
+# -------------------------------
 # Range Function
-# Used to generate a sequence of numbers, often used in for loops for iteration
+# -------------------------------
+# range() generates a sequence of numbers.
+# Syntax: range(start, stop, step)
+# - start (optional) → starting number (default 0)
+# - stop (required)  → ending number (excluded!)
+# - step (optional)  → how much to increase/decrease each time (default 1)
 
-# Example 1: Iterating through a range of numbers
-for i in range(5):  # Loops from 0 to 4
-    print(i)  # Prints the current number
-    # Start form 0 and end at 4 (5 is excluded)
+# Example 1: Iterating from 0 to 4
+for i in range(5):  # 0, 1, 2, 3, 4
+    print(i)
 
-# we can also specify start and end values in range function
-for i in range(1, 11):  # Loops from 1 to 10
-    print(i)  # Prints the current number
+# Example 2: Iterating from 1 to 10
+for i in range(1, 11):  # 1 through 10
+    print(i)
 
-    # we can also add step value in range function
-    for i in range(1, 15, 2):  # Generates numbers from 1 to 14, incrementing by 2
-        print(i)  # Prints the current number
+# Example 3: Using step (increment by 2)
+for i in range(1, 15, 2):  # 1, 3, 5, ..., 13
+    print(i)
 
-        # we can also use this reverse order
-        for i in range(10, 0, -1):  # Loops from 10 to 1
-            print(i)  # Prints the current numbern
-
+# Example 4: Reverse loop (counting down)
+for i in range(10, 0, -1):  # 10 down to 1
+    print(i)
 
 
-# Example 2: Print a table of 5
-for i in range(1, 11):  # Loops from 1 to 10
-    print("5 x ", i, " = ", 5 * i)  # Prints the multiplication table of 5
+# -------------------------------
+# Practical Examples
+# -------------------------------
+
+# Multiplication table of 5
+for i in range(1, 11):
+    print("5 x", i, "=", 5 * i)
+
+# Multiplication table of 7
+for i in range(7, 71, 7):  # 7, 14, ..., 70
+    print(i)
+
+# Universal multiplication table
+n = int(input("Which table do you want? "))
+for i in range(n, (n * 10) + 1, n):  # n, 2n, 3n, ..., 10n
+    print(i)
+
+# Direct Method
+name = "BuildScript is Cool"
+
+for i in name:
+    print(i)
